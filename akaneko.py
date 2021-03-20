@@ -67,6 +67,9 @@ class Nsfw:
 	def cuckhold(self):
 		return self.__get(params="netorare")
 	
+	def netotare(self):
+		return self.__get(params="netorare")
+	
 	def netorare(self):
 		return self.__get(params="netorare")
 	
