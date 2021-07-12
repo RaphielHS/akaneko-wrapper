@@ -109,10 +109,11 @@ akaneko.nsfw.wallpapers() | Fetch a random NSFW Wallpaper! (Desktop)
 Discord Bot Example
 ```python
 import discord # Import the module
+import akaneko
 
 from discord.ext import commands # get commands from discord.ext
 
-client = commands.Bot(command_prefox='[PREFIX HERE]')
+client = commands.Bot(command_prefix='[PREFIX HERE]')
 
 @client.event # the function decorator
 async def on_ready(): # on Ready event
